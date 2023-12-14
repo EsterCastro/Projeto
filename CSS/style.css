@@ -1,0 +1,57 @@
+main {
+    padding-top: 56px;
+}
+
+.fundoImag {
+    background-image: url(/image/close-up-em-objetos-de-educacao-e-economia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.logo, .naveg, a, h2, h3 {
+    gap: 2px;
+    background-image: linear-gradient(to right, #03DF9D, #03B1EE);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Kaushan Script;
+}
+
+a {
+    margin: 0 5%;
+}
+
+/* Botões da navegação */
+.navbar-nav .nav-link {
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: opacity: 0.8;
+}
+
+.btn-custom {
+    background-color: #ff9900;
+    border-color: #ff9900;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+    color: #ffffff;
+}
+
+footer {
+    height: 15vh;
+    background-color: var(--dark);
+    color: #ffffff;
+}
